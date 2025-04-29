@@ -1,62 +1,62 @@
-Day Counter - Count Up / Count Down Web Uygulaması
+⏳ Day Counter - Count Up / Count Down Web Uygulaması
 
 📋 Proje Açıklaması
 
-Bu proje, kullanıcıların bir etkinlik tarihi belirleyerek o etkinliğe kalan süreyi (Count Down) veya geçmiş bir etkinliğin üzerinden geçen süreyi (Count Up) görmesini sağlayan basit bir web uygulamasıdır. Tüm veriler tarayıcının localStorage alanında saklanır.
+Kullanıcının belirlediği bir etkinlik tarihine kalan süreyi (Count Down) veya o tarihten itibaren geçen süreyi (Count Up) gösteren modern, hızlı ve sade bir web uygulamasıdır. Tüm sayaçlar, tarayıcı kapatılsa bile localStorage sayesinde kaybolmaz.
 
-⚙ Nasıl Çalışır?
+⚙️ Nasıl Çalışır?
 
-Kullanıcı bir etkinlik adı ve tarih seçer.
+Etkinlik adını ve tarihini girin
 
-Etkinlik tarihi gelecekteyse geri sayım (Count Down) başlar.
+Gelecek tarih için geri sayım, geçmiş tarih için ileri sayım başlar
 
-Etkinlik tarihi geçmişteyse ileri sayım (Count Up) başlar.
+Sayaçlar her saniye güncellenir
 
-Sayaçlar her saniye otomatik güncellenir.
+Sayaçlar tarayıcı belleğine kaydedilir
 
-Sayaçlar tarayıcı kapansa bile kaybolmaz.
+Sayaçlar silinebilir ve düzenlenebilir
 
-Sayaçlar silinebilir veya düzenlenebilir.
-
-🛠 Kod Yapısı
+🛠️ Kod Yapısı
 
 index.html
 
-Web sayfasının çatısı.
+Uygulamanın HTML yapısı
 
-Bootstrap ile responsive bir tasarım kullanıldı.
+Bootstrap 5 ile responsive tasarım
 
 js/app.js
 
-Uygulamanın ana kontrol noktaları.
-
-Sayfa yüklendiğinde kayıtlı sayaçları çeker ve ekranda gösterir.
+Ana kontrol akışı ve sayaçların başlatılması
 
 js/storage.js
 
-Sayaçları localStorage'a kaydetme ve çağırma işlemlerini yapar.
+Sayaçların localStorage'a kaydedilmesini ve alınmasını sağlar
 
 js/time.js
 
-Belirtilen tarihe kalan veya geçen süre hesaplamasını yapar.
+Tarih hesaplamalarını (kalan/geçen süre) yapar
 
 js/ui.js
 
-Sayaç kartlarını oluşturur.
-
-Sayaçların güncellenmesini ve ekranda gösterilmesini sağlar.
+Sayaç arayüzünü oluşturur ve günceller
 
 📂 Klasör Yapısı
 
-DayCounterProject_Modified/
-├── index.html
-├── .vscode/
-│   └── settings.json
-└── js/
-    ├── app.js
-    ├── storage.js
-    ├── time.js
-    └── ui.js
+
+    DayCounterProject_Modified/
+
+    ├──  index.html
+
+    └──  js/
+
+     ├── app.js
+
+     ├── storage.js
+
+     ├── time.js
+
+     └── ui.js
+
 
 🚀 Kurulum ve Kullanım
 
@@ -64,17 +64,17 @@ Bu projeyi bilgisayarınıza indirin veya GitHub'dan klonlayın:
 
 git clone https://github.com/kullanici-adi/DayCounterProject_Modified.git
 
-index.html dosyasını bir tarayıcıda açarak kullanmaya başlayın.
+index.html dosyasını bir tarayıcıda açın.
 
-Etkinlik adınızı ve tarihini girin. Sayaç otomatik olarak oluşacaktır.
+Etkinlik adınızı ve tarihini girin – sayaç otomatik olarak oluşacaktır.
 
-📢 Notlar
+💡 Ek Bilgiler
 
-Uygulama sadece tarayıcı ortamında çalışır.
+Sunucu veya veritabanı gerekmez, tamamen tarayıcıda çalışır
 
-Sunucuya veya backend koduna ihtiyaç duymaz.
+Sade, hızlı ve kullanıcı dostu
 
-Bootstrap kullanılarak temel tasarım iyileştirilmeleri yapılmıştır.
+Bootstrap sayesinde mobil uyumlu
 
-Bu proje, basit bir zaman takibi ihtiyacını pratik bir şekilde karşılamak için tasarlanmıştır.
-Keyifli kullanımlar!
+🕓 Günlerin değerini bilmek isteyenler için mükemmel bir araç.
+Keyifli kullanımlar dileriz!
