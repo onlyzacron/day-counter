@@ -62,7 +62,7 @@ Sayaç arayüzünü oluşturur ve günceller
 
 Bu projeyi bilgisayarınıza indirin veya GitHub'dan klonlayın:
 
-git clone https://github.com/kullanici-adi/DayCounterProject_Modified.git
+git clone https://github.com/onlyzacron/day-counter.git
 
 index.html dosyasını bir tarayıcıda açın.
 
